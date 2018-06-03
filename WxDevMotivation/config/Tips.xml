@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<Tips>
+	<DailyTips>
+		<subject>Tip of the day!!!</subject>
+		<tip><![CDATA[Logging any "canonical" payload today?? <br/>Make sure its logLevel is DEBUG]]></tip>
+		<tip><![CDATA[Mapping any canonical today? <br/>Make sure Source and Target sections under Message Header are populated]]></tip>
+		<tip><![CDATA[Did you know? <br/> '@Company' field under MessageHeader/Source is mandatory. So don't miss to populate it]]></tip>
+		<tip><![CDATA[Writing any new service today? <br/>Make sure "start processing" is followed by "source payload" log step]]></tip>
+		<tip><![CDATA[Logging any "source" payload today? <br/>Make sure complete service input is mapped under logDocument as-is]]></tip>
+		<tip><![CDATA[Make sure "start processing", "source payload" and "end processing" are at INFO level all the time without fail]]></tip>
+		<tip><![CDATA[Logging "Payload Filtered" today? <br/>Make sure logLevel is DEBUG and "logPayload" string has detailed explanation]]></tip>
+		<tip><![CDATA[Logging any CREATE/UPDATE/DELETE web service today? <br/>Make sure "Consumer Request" and "Consumer Response" are at DEBUG level]]></tip>
+		<tip><![CDATA[Logging a GET web service? <br/>Make sure "Consumer Request" and "Consumer Response" are at TRACE level]]></tip>
+		<tip><![CDATA[Planning to use a new "Processing Version" or "Order Type" today? <br/>Make sure you add them in a business rule and NOT in a config/properties file]]></tip>
+		<tip><![CDATA[Planning to use a new "User Role" for approval today? <br/>Make sure you add it in a business rule and NOT in a config/properties file]]></tip>		
+		<tip><![CDATA[Planning to use a new "Company" or "Branch Plant" today? <br/>Make sure you add them in a business rule and NOT in a config/properties file]]></tip>
+		<tip><![CDATA[Planning to use a new "Manhattan Business Unit" today? <br/>Make sure you add it in a business rule and NOT in a config/properties file]]></tip>
+		<tip><![CDATA[New BRE table? <br/>Create a New BRE Project for it]]></tip>
+		<tip><![CDATA[Do you see any need for Nested Loop today? <br/>Scrap that thought... Use new "For-Each" construct which is very elegant]]></tip>
+		<tip><![CDATA[New MFT scheduled event? <br/>Don't even think of calling a IS flow service from it. Just place the file in /share/**** location and use file poller on the IS]]></tip>
+		<tip><![CDATA[Have you noticed any integration point confined to system X being called or used in system Y package? <br/>Mayday.... Mayday.... please report to your team lead for a quick code review immediately]]></tip>
+		<tip><![CDATA[Are you sure your "getConfig" service written in package util has service caching enabled?<br/> If not, go check and enable the service caching please]]></tip>
+		<tip><![CDATA[Have you noticed any "save/restore" pipeline steps in a flow service? <br/>Immediately delete them from the code or bad fate will follow you for next 6 months :) Use "safeSaveRestore" service from BstarCommon instead]]></tip>
+		<tip><![CDATA[Planning to use a Java service utility?? <br/>Make sure it is invoked as transformers only]]></tip>
+		<tip><![CDATA[Making use of a service that got caching enabled? <br/>Only right way to invoke it is via TRANSFORMER. Which means all your getConfig service calls should be in a transformer only ;) ]]></tip>
+		<tip><![CDATA[Making use of Global Variables? <br/>Only right way to use them is through "BstarLoggingFramework.Util:getGlobalVar" service]]></tip>
+	</DailyTips>
+	<Greetings>
+		<greeting>Hi</greeting>
+		<greeting>Hello</greeting>
+		<greeting>Hola</greeting>
+		<greeting>Good Day</greeting>
+		<addressing>Team</addressing>
+		<addressing>Party People</addressing>
+		<addressing>All</addressing>
+		<addressing>Everyone</addressing>
+	</Greetings>
+	<Farewells>
+		<farewell>Have a wonderful day!!!</farewell>
+		<farewell>I wish you all a fabulous day!!!</farewell>
+		<farewell>Have fun!!!</farewell>
+		<farewell>Happy Coding!!!</farewell>
+		<farewell>Happy Integration!!!</farewell>
+		<farewell>Take care!!!</farewell>
+		<farewell>You all rock!!!</farewell>
+	</Farewells>
+	<Email>
+		<from>kapil.sa@hcl.com</from>
+		<to>kapil.sa@hcl.com</to>
+		<signature>Prasad Pokala</signature>
+	</Email>
+</Tips>
