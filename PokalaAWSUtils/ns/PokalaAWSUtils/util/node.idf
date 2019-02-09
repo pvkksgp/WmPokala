@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">PokalaAWSUtils.util</value>
+  <value name="is_public">false</value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgU3RyaW5nIGdldFNIQTI1Nkhhc2goU3RyaW5nIGRhdGEpIHRocm93cyBO
+b1N1Y2hBbGdvcml0aG1FeGNlcHRpb24sIFVuc3VwcG9ydGVkRW5jb2RpbmdFeGNlcHRpb24gewkJ
+ICAgICAgICAKCU1lc3NhZ2VEaWdlc3QgZGlnZXN0ID0gTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5j
+ZSgiU0hBLTI1NiIpOwogICAgYnl0ZVtdIGhhc2ggPSBkaWdlc3QuZGlnZXN0KGRhdGEuZ2V0Qnl0
+ZXMoIlVURi04IikpOwogICAgcmV0dXJuIGJ5dGVzVG9IZXgoaGFzaCk7Cn0KCnB1YmxpYyBzdGF0
+aWMgYnl0ZVtdIEhtYWNTSEEyNTYoU3RyaW5nIGRhdGEsIGJ5dGVbXSBrZXkpIHRocm93cyBFeGNl
+cHRpb24gewogICAgU3RyaW5nIGFsZ29yaXRobT0iSG1hY1NIQTI1NiI7CiAgICBNYWMgbWFjID0g
+TWFjLmdldEluc3RhbmNlKGFsZ29yaXRobSk7CiAgICBtYWMuaW5pdChuZXcgU2VjcmV0S2V5U3Bl
+YyhrZXksIGFsZ29yaXRobSkpOwogICAgcmV0dXJuIG1hYy5kb0ZpbmFsKGRhdGEuZ2V0Qnl0ZXMo
+IlVURjgiKSk7Cn0KCnB1YmxpYyBzdGF0aWMgU3RyaW5nIGJ5dGVzVG9IZXgoYnl0ZVtdIGhhc2gp
+IHsKICAgcmV0dXJuIERhdGF0eXBlQ29udmVydGVyLnByaW50SGV4QmluYXJ5KGhhc2gpLnRvTG93
+ZXJDYXNlKCk7CQp9</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.UnsupportedEncodingException</value>
+    <value>java.security.MessageDigest</value>
+    <value>java.security.NoSuchAlgorithmException</value>
+    <value>javax.crypto.Mac</value>
+    <value>javax.crypto.spec.SecretKeySpec</value>
+    <value>javax.xml.bind.DatatypeConverter</value>
+    <value>com.softwareag.util.IDataMap</value>
+  </array>
+</Values>
